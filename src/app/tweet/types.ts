@@ -5,5 +5,11 @@ export const types = `#graphql
         imageURL: String
     }
 
-    Error: Unknown type "Tweet".
+    
+    type Tweet {
+        id: ID!
+        content: String!
+        imageURL: String
+        author: User
+    }
 `;
