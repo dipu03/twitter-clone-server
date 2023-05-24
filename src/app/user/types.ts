@@ -1,6 +1,6 @@
 
 
-export const types = `#hraphql
+export const types = `#graphql
 
     type User {
         id : ID!
